@@ -1,0 +1,465 @@
+.movie-frame-holder--server-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    background-color: #1b1e24;
+}
+
+@media screen and (max-width: 860px) {
+    .movie-frame-holder--server-holder {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        margin-top: 15px;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        background-color: transparent;
+        height: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+.movie-frame-holder--server-holder--report--holder {
+    margin-top: auto;
+    -webkit-box-shadow: 0 -15px 10px -10px #495061;
+    box-shadow: 0 -15px 10px -10px #495061;
+}
+
+@media screen and (max-width: 860px) {
+    .movie-frame-holder--server-holder--report--holder {
+        width: 100%;
+        margin-top: 10px;
+        -webkit-box-shadow: 0 0 0 0 #495061;
+        box-shadow: 0 0 0 0 #495061;
+    }
+}
+
+.movie-frame-holder--server-holder--report--holder--title {
+    color: #868fa3;
+    text-align: center;
+}
+
+.movie-frame-holder--server-holder--report--holder--report {
+    text-align: center;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 500px;
+    background-color: #e6e600;
+    -webkit-box-shadow: 0 0 10px rgba(230, 230, 0, 0.479);
+    box-shadow: 0 0 10px rgba(230, 230, 0, 0.479);
+    width: 120px;
+    color: black;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    cursor: pointer;
+    -webkit-transition: -webkit-box-shadow 0.1s ease;
+    transition: -webkit-box-shadow 0.1s ease;
+    transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.1s ease, -webkit-box-shadow 0.1s ease;
+}
+
+.movie-frame-holder--server-holder--report--holder--report:hover {
+    -webkit-box-shadow: 0 0 20px rgba(230, 230, 0, 0.479);
+    box-shadow: 0 0 20px rgba(230, 230, 0, 0.479);
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.671);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--hide {
+    display: none;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--remove-icon {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--form {
+    width: 500px;
+    background-color: #545c6f;
+    z-index: 999999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 20px 10px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--form--loading-screen {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.829);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 999999;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--form--loading-screen--hide {
+    display: none;
+}
+
+@media screen and (max-width: 860px) {
+    .movie-frame-holder--server-holder--report--holder--report-section--form {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .movie-frame-holder--server-holder--report--holder--report-section--form {
+        width: 90%;
+    }
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--form input, .movie-frame-holder--server-holder--report--holder--report-section--form select, .movie-frame-holder--server-holder--report--holder--report-section--form textarea {
+    width: 90%;
+    margin-bottom: 20px;
+    text-align: right;
+    font-family: zakarya;
+    padding: 5px;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--form input::-webkit-input-placeholder, .movie-frame-holder--server-holder--report--holder--report-section--form select::-webkit-input-placeholder, .movie-frame-holder--server-holder--report--holder--report-section--form textarea::-webkit-input-placeholder {
+    text-align: center;
+    font-family: zakarya;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--form input:-ms-input-placeholder, .movie-frame-holder--server-holder--report--holder--report-section--form select:-ms-input-placeholder, .movie-frame-holder--server-holder--report--holder--report-section--form textarea:-ms-input-placeholder {
+    text-align: center;
+    font-family: zakarya;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--form input::-ms-input-placeholder, .movie-frame-holder--server-holder--report--holder--report-section--form select::-ms-input-placeholder, .movie-frame-holder--server-holder--report--holder--report-section--form textarea::-ms-input-placeholder {
+    text-align: center;
+    font-family: zakarya;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--form input::placeholder, .movie-frame-holder--server-holder--report--holder--report-section--form select::placeholder, .movie-frame-holder--server-holder--report--holder--report-section--form textarea::placeholder {
+    text-align: center;
+    font-family: zakarya;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--form input, .movie-frame-holder--server-holder--report--holder--report-section--form select {
+    height: 40px;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--form textarea {
+    resize: none;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--form select {
+    text-align: center;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--form button {
+    padding: 3px 20px;
+    background-color: #949cae;
+    color: #fff;
+    border-radius: 500px;
+    border: 0;
+    font-family: zakarya;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.movie-frame-holder--server-holder--report--holder--report-section--form button:hover {
+    background-color: #b1b7c4;
+}
+
+.movie-frame-holder--server-holder--header {
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: #373d49;
+    padding: 7px 0;
+    border-bottom: 6px solid #545c6f;
+}
+
+@media screen and (max-width: 1028px) {
+    .movie-frame-holder--server-holder--header {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .movie-frame-holder--server-holder--header {
+        border-bottom: 0;
+        background-color: transparent;
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+        text-align: center;
+        line-height: 1;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .movie-frame-holder--server-holder--header {
+        font-size: 1.1rem;
+        line-height: 1;
+    }
+}
+
+.movie-frame-holder--server-holder--servers {
+    width: 100%;
+    overflow-y: auto;
+}
+
+.movie-frame-holder--server-holder--servers::-webkit-scrollbar {
+    width: 10px;
+    background-color: #3e4452;
+}
+
+.movie-frame-holder--server-holder--servers::-webkit-scrollbar-thumb {
+    background-color: #6a748c;
+    border-radius: 500px;
+}
+
+@media screen and (max-width: 860px) {
+    .movie-frame-holder--server-holder--servers {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        height: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        background-color: #1b1e24;
+    }
+}
+
+.movie-frame-holder--server-holder--servers::after {
+    content: '';
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 12px;
+    flex: 0 0 12px;
+}
+
+.movie-frame-holder--server-holder--servers--item {
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-size: 1.2rem;
+    padding: 10px 0;
+    border-bottom: 4px solid #282c35;
+    text-transform: capitalize;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    cursor: pointer;
+    direction: rtl;
+}
+
+.movie-frame-holder--server-holder--servers--item span {
+    font-size: 0.9rem;
+    color: #00af00;
+}
+
+@media screen and (max-width: 1028px) {
+    .movie-frame-holder--server-holder--servers--item {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .movie-frame-holder--server-holder--servers--item {
+        border-bottom: 0;
+        padding: 5px 20px;
+        height: 100%;
+        line-height: 40px;
+        border-right: 1px solid #282c35;
+        -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .movie-frame-holder--server-holder--servers--item {
+        font-size: 1rem;
+    }
+}
+
+.movie-frame-holder--server-holder--servers--item:last-child {
+    border: 0;
+}
+
+.movie-frame-holder--server-holder--servers--item--active {
+    background-color: #333844;
+}
+
+.movie-frame-holder--server-holder--servers--item:hover {
+    background-color: #313641;
+}
+
+.movie-frame-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    color: #fff;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1178px) {
+    .movie-frame-holder {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1028px) {
+    .movie-frame-holder {
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .movie-frame-holder {
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .movie-frame-holder {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height:100%;
+        margin-top: 0px;
+    }
+
+    .movie-frame-holder::before {
+        color: #fff;
+        margin-bottom: 5px;
+        font-size: 1.2rem;
+    }
+}
+
+.movie-frame-holder--frame {
+    width: 50%;
+    background-color: #1b1e24;
+    height: 100%;
+    position: relative;
+    border-radius: 14px;
+}
+
+@media screen and (max-width: 750px) {
+    .movie-frame-holder--frame {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .movie-frame-holder--frame {
+        width: 100%;
+        height: 100%;
+        padding-top: 57.3333%;
+    }
+}
+
+.movie-frame-holder--frame--warning {
+    font-size: 3rem;
+    position: absolute;
+    color: #282c35;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1028px) {
+    .movie-frame-holder--frame--warning {
+        font-size: 2rem;
+    }
+}
+
+.movie-frame-holder--frame iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media screen and (max-width: 860px) {
+    .movie-frame-holder--frame iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}

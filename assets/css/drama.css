@@ -1,0 +1,2582 @@
+* {
+    box-sizing: border-box
+}
+header.main {
+    width: 1000px;
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 104;
+    border-radius: 10px 10px 0 0;
+    margin-top: 20px
+}
+header.main .hbox .logo {
+    float: left;
+    padding: 17px 0;
+    text-align: center;
+    margin-right: 10px
+}
+
+header.main .hbox .logo img,header.responsive .logo img {
+    width: auto;
+    height: 32px
+}
+
+header.main .hbox .search {
+    float: left;
+    padding: 14px 0 0;
+    width: 100%
+}
+
+header.main .hbox .search form {
+    padding: 0;
+    width: 100%;
+    position: relative;
+    border-radius: 5px
+}
+
+header.main .hbox .search form input[type=text] {
+    border: 0;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+header.main .hbox .search form .search-button {
+    border: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    padding: 12px 15px;
+    font-size: 14px;
+    color: #cedbdf;
+    background: 0
+}
+
+#contenedor,.contact .wrapper form.contactame,header.main .hbox {
+    max-width: 1000px;
+    margin: 0 auto
+}
+
+.full_width_layout {
+    border: 0 !important;
+    width: 100% !important;
+    padding: 10px !important
+}
+
+.module {
+    float: left;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+    position: relative
+}
+
+.module .sidebar {
+    width: 320px;
+    height: 100%;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px
+}
+
+.module .content {
+    width: calc(100% - 320px);
+    margin-right: 320px;
+    padding: 10px;
+    float: left;
+    border-right: 1px solid
+}
+
+.module .content .items {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid
+}
+
+#seasons .se-c .se-a ul.episodios li:last-child,.calendar_wrap table tbody tr:last-child,.module .content .items:last-child,.module .content .list_genres:last-child,.sidemenu ul.genres li:last-child {
+    border-bottom: 0
+}
+
+.module .content header {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    line-height: 20px
+}
+
+.module .content header h1,.module .content header h2 {
+    float: left;
+    font-size: 20px;
+    padding-left: 10px
+}
+
+.module .content header span {
+    float: right;
+}
+
+.module .content header span a.see-all {
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    margin-left: 6px
+}
+
+.module .content .items .item {
+    float: right;
+    margin: 0;
+    padding: 7px;
+    position: relative
+}
+
+.module .content .items .se {
+    margin: 0;
+    padding: 7px
+}
+
+.module .content .items .item .poster {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 150%;
+    border-radius: 3px
+}
+
+.module .content .items .item .imdb {
+    position: absolute;
+    z-index: 103;
+    top: 1px;
+    right: 0;
+    border-radius: 100%;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 41px
+}
+
+.module .content .items .item .imdb span {
+    font-size: 9px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    width: 100%;
+    text-align: center;
+    line-height: 1
+}
+
+.module .content .items .item .poster img,article.simple .poster img {
+    width: 100%;
+    height: auto;
+    margin-top: -150%;
+    position: absolute;
+    border-radius: 0 0 10px 10px;
+    transition: all .4s ease-out
+}
+
+.module .content .items .item .poster a:hover img {
+    transform: scale(1.2) rotate(2deg);
+    transition: all .4s ease-out
+}
+
+.module .content .items .item .poster .figure {
+    position: absolute;
+    width: 102%;
+    height: 40%;
+    bottom: -1px;
+    left: 0;
+    z-index: 10
+}
+
+.module .content .items .item .poster .figure .data {
+    position: absolute;
+    width: 95%;
+    bottom: 25px;
+    left: 7px;
+    text-shadow: 0 1px 5px #000;
+    display: block !important
+}
+
+.module .content .items .item .poster .figure .data h3,article.simple .poster .figure .data h3 {
+    width: 95%;
+    font-size: 95%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.module .content .items .item .poster .figure span.anayil {
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    font-size: 85%
+}
+
+.module .content .items .item .poster .figure span.anadil,.module .content .items .item .poster .figure span.sezon {
+    position: absolute;
+    bottom: 7px;
+    font-size: 85%
+}
+
+span.icon span.blm-altyazisiz,span.icon span.blm-fragman,span.icon span.blm-ingilizce,span.icon span.blm-multi,span.icon span.blm-turkce-altyazi,span.icon span.blm-turkce-dublaj,span.icon span.blm-yerli-dizi {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-size: 25px;
+    width: 25px;
+    height: 17px
+}
+
+span.flm-altyazisiz,span.flm-fragman,span.flm-multi,span.flm-turkce-altyazi,span.flm-turkce-dublaj,span.flm-yerli-dizi,span.flm-yerli-film {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    text-transform: uppercase
+}
+
+.module .content .items .item .left {
+    right: -326px
+}
+
+.module .content .items .item .right {
+    left: -326px
+}
+
+
+#seasons,#seasons .se-c,#serie_contenido,footer.main .fcmpbox {
+    width: 100%;
+    float: left
+}
+
+#seasons .se-c:last-child {
+    margin-bottom: 0
+}
+
+#seasons .se-c .se-q {
+    cursor: pointer;
+    line-height: 20px;
+    padding-left: 70px;
+    position: relative;
+    margin-bottom: 2px
+}
+
+#seasons .se-c .se-q span.title {
+    float: left;
+    padding: 13px 0;
+    font-size: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+#seasons .se-c .se-a ul.episodios li {
+    width: 100%;
+    float: left;
+    height: 51px;
+    border-bottom: 1px solid
+}
+
+#seasons .se-c .se-a ul.episodios li .numerando {
+    float: left;
+    padding: 9px;
+    margin: 10px 0;
+    border-right: 1px solid;
+    width: 60px;
+    text-align: center;
+}
+
+#seasons .se-c .se-a ul.episodios li .imagen {
+    width: 50px;
+    float: left
+}
+
+#seasons .se-c .se-a ul.episodios li .imagen img {
+    width: 100%
+}
+
+#seasons .se-c .se-a ul.episodios li .episodiotitle {
+    float: left;
+    width: calc(100% - 50px);
+    padding: 0 0 0 125px;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+#seasons .se-c .se-a ul.episodios li .episodiotitle a {
+    width: 100%;
+    line-height: 50px;
+    float: left;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#seasons .se-c .se-a ul.episodios li .episodiotitle span.notitle {
+    text-decoration: line-through;
+    color: gray
+}
+
+#seasons .se-c .se-a ul.episodios li .episodiotitle span.date {
+    float: right;
+    font-size: 12px;
+}
+
+#seasons .se-c .se-a ul.episodios li .episodiotitle span.noyayin {
+    float: right;
+    font-size: 13px;
+    color: #ec4134
+}
+
+.dtw_content article.w_item_a:last-child {
+    margin-bottom: 0
+}
+
+.diger-bolumler {
+    width: 100%;
+    float: left
+}
+
+.diger-bolumler h2.baslik {
+    font-size: 17px;
+    width: 100%;
+    float: left;
+    padding: 15px;
+    margin-top: 7px;
+    border-radius: 7px 7px 0 0
+}
+
+.diger-bolumler ul.bolumler li {
+    cursor: pointer;
+    line-height: 15px;
+    float: left;
+    width: 100%;
+    position: relative
+}
+
+.diger-bolumler ul.bolumler li a {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    background-color: #1e2326;
+    border-bottom: 2px solid #191d1f;
+    padding: 10px;
+    font-size: 14px;
+    position: relative
+}
+
+.diger-bolumler ul.bolumler li:last-child a {
+    border-radius: 0 0 7px 7px;
+    border-bottom: 0;
+    margin-bottom: 10px
+}
+
+.diger-bolumler ul.bolumler li a:hover,.diger-bolumler ul.bolumler li a:hover .tarih,.diger-bolumler ul.bolumler li a:hover .noyayin,.diger-bolumler ul.bolumler li.aktif a .noyayin,.diger-bolumler ul.bolumler li.aktif a .sebono,.diger-bolumler ul.bolumler li.aktif a .icono,.diger-bolumler ul.bolumler li a:hover .sebono,.diger-bolumler ul.bolumler li a:hover .icono {
+    color: #fff
+}
+
+.diger-bolumler ul.bolumler li a .tarih {
+    float: right;
+    font-size: 11px;
+    color: #ccc;
+    margin-top: 4px
+}
+
+.diger-bolumler ul.bolumler li a .noyayin {
+    float: right;
+    font-size: 13px;
+    color: #ec4134
+}
+
+.diger-bolumler ul.bolumler li a .sebono {
+    text-decoration: line-through;
+    color: gray
+}
+
+.diger-bolumler ul.bolumler li a .icono {
+    color: gray
+}
+
+.diger-bolumler ul.bolumler li a .sticon-play-circle {
+    font-size: 15px;
+    margin-left: 2px;
+    margin-right: 7px
+}
+
+i.delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 8px;
+    opacity: .4
+}
+
+article.post a:hover>.images .background_over_image,i.delete:hover {
+    opacity: 1
+}
+
+#single,.sbox h1,.sbox h2,.sidebar aside.widget {
+    width: 100%;
+    float: left
+}
+
+#single {
+    margin: 0;
+    padding: 0;
+    position: relative
+}
+
+.blmbilgi {
+    float: left;
+    width: 100%;
+    line-height: 25px;
+    border-bottom: 1px solid;
+    padding: 10px
+}
+
+.blmbilgi .dizibilgi {
+    float: left !important;
+    width: 65%
+}
+
+.blmbilgi .diziextra {
+    float: right !important;
+    width: 34%;
+    margin-right: 5px;
+    text-align: right;
+    text-transform: uppercase
+}
+
+span.iconb span.blm-altyazisiz,span.iconb span.blm-fragman,span.iconb span.blm-ingilizce,span.iconb span.blm-multi,span.iconb span.blm-turkce-dublaj,span.iconb span.blm-turkce-altyazi,span.iconb span.blm-yerli-dizi {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    background-size: 30px;
+    width: 30px;
+    height: 20px
+}
+
+span.iconb span.blm-turkce-altyazi-2 {
+    position: absolute;
+    left: 12px;
+    top: 7px;
+    width: 30px;
+    height: 26px
+}
+
+.blmbilgi .dizibilgi span.badi {
+    float: left;
+    max-width: 100%;
+    margin-left: 38px;
+    font-size: 18px
+}
+
+.blmbilgi .diziextra i {
+    font-size: 14px;
+    margin-right: 2px
+}
+
+.blmbilgi .diziextra span.tarih {
+    font-size: 13px;
+}
+
+.blmbilgi .diziextra span.yorum {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.blmbilgi .diziextra span.izledim {
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.blmbilgi .diziextra span.izledim i {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.dtsingle .content {
+    width: calc(100% - 320px);
+    float: left;
+    padding: 0;
+    position: relative
+}
+
+#single .content .sbox {
+    width: 100%;
+    float: left;
+    padding: 15px;
+    background: 0;
+    border-bottom: 3px solid
+}
+
+.dtsingle .sidebar {
+    width: 320px;
+    height: 100%;
+    float: left;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    overflow-y: auto
+}
+
+.sbox h1,.sbox h2 {
+    margin-bottom: 8px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.se .poster .season_m span.a,a.a_f_sbox {
+    font-size: 14px
+}
+
+.sbox h2 a.addlink {
+    float: right;
+    width: initial;
+    font-size: 14px;
+    padding: 5px 15px
+}
+
+a.a_f_sbox {
+    float: left;
+    padding-top: 15px;
+}
+
+a.a_f_sbox i {
+    float: right;
+    margin-left: 10px;
+    line-height: 14px
+}
+
+.blmbilgi,.dt_mega_menu .box ul li:hover>ul.sub-menu,.se .poster:hover>.season_m {
+    display: block
+}
+
+.se .poster .season_m {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 33%0;
+    text-shadow: 0 0 10px #000
+}
+
+.se .poster .season_m span {
+    width: 100%;
+    float: left;
+    text-align: center
+}
+
+.se .poster .season_m span.a {
+    margin-top: 15px
+}
+
+.se .poster .season_m span.c,.slider article.item .image .data h2.title {
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.se .poster .season_m span.c {
+    font-size: 16px;
+    padding: 0 10px
+}
+
+.uclu {
+    width: calc(100%/3)
+}
+
+.dortlu {
+    width: calc(100%/4)
+}
+
+.besli {
+    width: calc(100%/5)
+}
+
+.altili {
+    width: calc(100%/6)
+}
+
+#dt-episodes .item,#dt-episodes2 .item,#dt-movies .item,#dt-oldmovies .item,#dt-seasons .item,#dt-tvshows .item,#featured-titles .item,#slider-ep-master article.item,#slider-master article.item,#slider-movies article.item,#slider-movies-tvshows article.item,#slider-tvshows article.item,.calendar_wrap table,.owl-carousel .owl-item,.slider {
+    width: 100%
+}
+
+#dt-episodes,#dt-episodes2,#dt-movies,#dt-oldmovies,#dt-seasons,#dt-tvshows,#dt_galery,#dt_galery_ep,#slider-ep-master,#slider-master,#slider-movies,#slider-movies-tvshows,#slider-tvshows,.dt_mega_menu .box ul li ul.sub-menu,.list_genres {
+    display: none
+}
+
+.list_genres .item {
+    width: 100% !important
+}
+
+.module .content .items .episodes .poster {
+    padding-top: 55%;
+    width: 100%;
+    height: auto
+}
+
+.module .content .items .episodes .poster img {
+    margin-top: -55%;
+    position: absolute
+}
+
+.module .content .items .episodes .poster .season_m {
+    padding: 10%0
+}
+
+.module .content .items .episodes .poster .season_m span.b {
+    font-size: 30px
+}
+
+.nav_items_module {
+    float: right
+}
+
+.nav_items_module a.btn {
+    padding-left: 10px;
+    float: left;
+    font-size: 21px;
+    cursor: pointer;
+    line-height: 20px
+}
+
+.player,.slider {
+    float: left;
+    margin-bottom: 25px
+}
+
+.slider article.item {
+    width: 50%;
+    float: left
+}
+
+.slider article.item .image {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 53%
+}
+
+.slider article.item .image img {
+    width: 100%;
+    position: absolute;
+    margin-top: -53%;
+    transition: transform .4s ease-out
+}
+
+.slider article.item .image:hover img,.slider article.item .image a:hover img {
+    transform: scale(1.2) rotate(2deg)
+}
+
+.slider article.item .image .data {
+    width: 100%;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 50px 14px 0 14px;
+    background-color: transparent;
+    background-repeat: repeat-x
+}
+
+.slider article.item .image .data h2.title {
+    font-size: 15px;
+}
+
+.slider article.item .image .data span.yil,.slider article.item .image .data span.dil {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-top: 2px
+}
+
+.slider article.item .image .data span.yil::after {
+    content: "-";
+    margin: 0 3px 0 5px
+}
+
+.player {
+    width: 100%
+}
+
+.wp-audio-shortcode,.wp-video-shortcode {
+    max-width: 100%
+}
+
+.sbox .sdata h1,.sheader .data h1 {
+    font-size: 20px;
+    margin-top: -7px;
+}
+
+.sbox .sposter {
+    float: left;
+    width: 185px;
+    margin-right: 20px;
+    position: relative
+}
+
+.sbox .sposter img {
+    width: 100%;
+    height: auto
+}
+
+.sbox .sdata,ul.smenu li {
+    float: left
+}
+
+.sbox p {
+    line-height: 23px
+}
+
+.likebox {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.sheader {
+    padding: 15px;
+    overflow: hidden
+}
+
+.sheader .poster {
+    float: left;
+    padding-bottom: 0;
+    width: 140px;
+    position: relative
+}
+
+.sheader,.sheader .poster img {
+    width: 100%;
+    float: left
+}
+
+.sheader .data {
+    padding: 0;
+    width: calc(100% - 160px);
+    margin-left: 160px
+}
+
+.sheader .data h1 {
+    line-height: 32px;
+    text-overflow: ellipsis
+}
+
+.sidebar aside.widget h2.widget-title {
+    font-size: 17px;
+    width: 100%;
+    float: left;
+    padding: 15px;
+    margin-top: 12px;
+    border-radius: 7px 7px 0 0
+}
+
+.sidebar aside.widget ul {
+    float: left;
+    width: 100%;
+    text-align: right
+}
+
+.sidebar aside.widget ul li,.w_item_a .image .data h3 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.sidebar aside.widget ul li {
+    float: left;
+    width: 100%;
+    line-height: 16px;
+    padding: 9px 0;
+    border-bottom: 1px solid
+}
+
+.sidebar aside.widget ul li a {
+    float: left;
+    font-size: 14px;
+    text-align: left
+}
+
+.sidebar aside.widget ul li:before {
+    font-family: icomoon !important;
+    content: "\f105";
+    margin-right: 10px;
+    float: left
+}
+
+.calendar_wrap,.tagcloud,.textwidget {
+    width: 100%;
+    float: left
+}
+
+.calendar_wrap table caption,.w_item_a .image .data,form.search-form,form.update_profile fieldset textarea {
+    width: 100%;
+    padding: 10px
+}
+
+.calendar_wrap table tbody tr td {
+    padding: 5px;
+    text-align: center
+}
+
+form.search-form {
+    float: left;
+    position: relative;
+    border: solid 1px
+}
+
+form.search-form input[type=text] {
+    width: 100%;
+    background: 0;
+    border: 0
+}
+
+form.search-form button[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    padding: 12px
+}
+
+.tagcloud a {
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 5px 8px;
+    display: block;
+    float: left;
+    margin: 1px
+}
+
+.widget_rss a.rsswidget {
+    width: 100%;
+}
+
+.widget_rss span.rss-date {
+    font-size: 13px;
+    margin-bottom: 5px;
+    width: 100%;
+    float: left
+}
+
+.player_sist .controlx nav.player ul.options li ul li a b,.w_item_a .image .data span.wdate,.w_item_c .data span,.widget_rss .rssSummary {
+    font-size: 13px
+}
+
+.widget_rss cite {
+    font-style: normal;
+    margin: 10px 0
+}
+
+.textwidget {
+    margin: 0;
+    padding: 0
+}
+
+.widget_rss cite,span.post-date {
+    width: 100%;
+    float: left;
+    font-size: 13px
+}
+
+span.comment-author-link {
+    font-size: 15px
+}
+
+.w_item_a {
+    width: 100%;
+    float: left
+}
+
+.w_item_a .image,.w_item_b {
+    width: 100%;
+    float: left;
+    position: relative
+}
+
+.w_item_a .image {
+    overflow: hidden;
+    margin: 0;
+    padding-top: 40%
+}
+
+.w_item_a .image img {
+    width: 100%;
+    position: absolute;
+    margin-top: -50%;
+    transition: all .4s ease-out
+}
+
+.w_item_a .image::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.9),transparent)
+}
+
+.w_item_a .image:hover img {
+    transform: scale(1.2) rotate(2deg)
+}
+
+.w_item_a .data {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    float: left;
+    color: #fff;
+    padding: 10px;
+    z-index: 1
+}
+
+.w_item_a .data h3 {
+    color: #fff;
+    margin-bottom: 5px
+}
+
+.wp-content p:last-child {
+    margin-bottom: 0
+}
+
+.w_item_b:last-child {
+    margin-bottom: 0;
+    height: 50px;
+    border: 0;
+    border-radius: 0 0 7px 7px
+}
+
+.w_item_b .image {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    overflow: hidden;
+    margin: 0;
+    top: 0;
+    left: 0
+}
+
+.w_item_b .image img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transition: all .4s ease-out
+}
+
+.w_item_b:last-child .image img,.w_item_b:last-child .image {
+    border-bottom-left-radius: 7px
+}
+
+.w_item_b a:hover>.image img {
+    transform: scale(1.2) rotate(2deg)
+}
+
+.w_item_b .data {
+    width: calc(100% - 50px);
+    margin-left: 53px;
+    float: left;
+    padding: 6px
+}
+
+.w_item_b .data h3,.w_item_c .data h3 {
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 18px
+}
+
+.w_item_c .data h3 {
+    font-size: 14px;
+    line-height: 20px
+}
+
+.w_item_b .data span.wimdb,.w_item_b .data span.wyear {
+    margin-top: 3px;
+    font-size: 12px;
+    float: left
+}
+
+.w_item_b .data span.wimdb,.w_item_b .data span.wimdb {
+    margin-left: 10px
+}
+
+.w_item_b .data span.wlang {
+    float: left;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 12px
+}
+
+.w_item_b .data span.wimdb span.sticon-imdb,.w_item_b .data span.wlang span.icon-bars,.w_item_b .data span.wyear span.sticon-calendar {
+    margin-right: 3px;
+    font-size: 13px
+}
+
+.w_item_c {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted;
+    position: relative
+}
+
+form.form-resp-ab,header.responsive {
+    border-bottom: 1px solid;
+    display: none
+}
+
+.resppages a,.sheader .poster .complex,.w_item_c .rating {
+    padding: 10px 0;
+    float: left;
+    text-align: center
+}
+
+.w_item_c .rating {
+    width: 60px;
+    margin-right: 10px;
+    font-size: 14px;
+    border-radius: 3px
+}
+
+.w_item_c .data {
+    float: left;
+    width: calc(100% - 70px)
+}
+
+.resppages {
+    display: none;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px
+}
+
+.resppages a {
+    width: 40%;
+    margin: 0 5%;
+    font-size: 16px
+}
+
+
+
+
+
+
+
+
+
+
+
+.fixedform {
+    width: 100%;
+    padding-right: 0
+}
+
+.reloading_page {
+    opacity: .1
+}
+
+.sl-wrapper a {
+    font-size: 13px;
+}
+
+.sl-wrapper a.liked:before,.sl-wrapper a:before,.sl-wrapper:hover>a.liked:before {
+    font-family: icomoon !important;
+    margin-right: 5px;
+    float: left
+}
+
+.sl-wrapper a:before {
+    content: "\f055";
+    font-size: 16px
+}
+
+.sl-wrapper a.liked:before {
+    content: "\f058"
+}
+
+.sl-wrapper:hover>a.liked:before {
+    content: "\f057"
+}
+
+.sl-wrapper a b {
+    margin-left: 5px;
+    padding: 2px 5px;
+    font-size: 11px;
+    border-radius: 2px;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif
+}
+
+.sl-button,article.simple .poster,article.simple2 .poster {
+    width: 100%;
+    float: left;
+    border-radius: 3px
+}
+
+.sl-button {
+    padding: 4px 10px;
+    line-height: 19px;
+    text-align: center
+}
+
+.sl-icon {
+    margin-right: .3125em;
+    font-family: "Arial Unicode MS",Arial,sans-serif
+}
+
+.sl-icon svg {
+    fill: currentColor
+}
+
+.sl-icon svg:after {
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+span.sl-wrapper {
+    float: right;
+    padding: 15px 0
+}
+
+.loader,.loader:after,.loader:before {
+    background: rgb(0,0,0,.2);
+    animation: load1 1s ease-in-out infinite;
+    width: .2em;
+    height: .6em
+}
+
+.loader:after,.loader:before,.sl-icon svg:after {
+    position: absolute;
+    top: 0;
+    content: ""
+}
+
+.loader:before {
+    left: -.375em;
+    animation-delay: -.32s
+}
+
+.loader {
+    left: -16px;
+    top: 23px;
+    text-indent: -9999em;
+    display: inline-block;
+    position: absolute;
+    font-size: 1em;
+    transform: translateZ(0);
+    animation-delay: -.16s
+}
+
+.loader:after {
+    left: .375em
+}
+
+.account .sidebar ul,.doload .notice,.head-main-nav ul.main-header li:hover>ul.sub-menu,.player_sist .controlx nav.player ul.options li:hover ul {
+    display: block
+}
+
+.doload fieldset,.form_fondo,.module .content .items .episodes .poster:hover>b.bolum .module .content .items .episodes .poster:hover>div.serie-time,.module .content .items .episodes .poster:hover>span.bolumdil,.module .content .items .episodes .poster:hover>span.bolumkalite,.module .content .items .episodes .poster:hover>span.serie,.module .content .items .episodes .poster:hover>span.sezon {
+    display: none
+}
+
+article.simple,article.simple2 {
+    width: calc(100%/6);
+    float: left;
+    padding: 5px
+}
+
+article.simple2 {
+    width: calc(100%/5)
+}
+
+article.simple .poster,article.simple2 .poster {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 150%
+}
+
+article.simple2 .poster {
+    height: 100px;
+    padding-top: 0
+}
+
+article.simple .poster span.icon-remove,article.simple2 .poster span.icon-remove {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 155;
+    font-size: 17px;
+    text-shadow: 0 2px 3px #000
+}
+
+article.simple .poster .imdb {
+    position: absolute;
+    z-index: 155;
+    top: -4px;
+    right: -4px;
+    border-radius: 100%;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 41px
+}
+
+article.simple .poster .imdb span {
+    font-size: 9px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    width: 100%;
+    text-align: center;
+    line-height: 1
+}
+
+article.simple .poster a:hover img,article.simple2 .poster img,article.simple2 .poster a:hover img {
+    transition: all .4s ease-out
+}
+
+article.simple .poster a:hover img,article.simple2 .poster a:hover img {
+    transform: scale(1.2) rotate(2deg)
+}
+
+article.simple .poster .figure {
+    position: absolute;
+    width: 102%;
+    height: 40%;
+    bottom: -1px;
+    left: 0;
+    z-index: 10
+}
+
+article.simple .poster .figure .data {
+    position: absolute;
+    width: 95%;
+    bottom: 25px;
+    left: 7px;
+    text-shadow: 0 1px 5px #000;
+    display: block !important
+}
+
+article.simple .poster .figure span.anayil,span.item_type {
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    font-size: 85%
+}
+
+span.item_type {
+    bottom: 0;
+    right: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 0
+}
+
+article.simple .poster .figure span.anadil {
+    position: absolute;
+    bottom: 7px;
+    left: 7px;
+    font-size: 85%
+}
+
+article.simple2 .poster img {
+    width: 100%;
+    height: 100px;
+    position: absolute
+}
+
+.module .content .items .episodes .poster .figure,article.simple2 .poster .figure {
+    position: absolute;
+    width: 102%;
+    height: 55%;
+    bottom: 0;
+    left: 0;
+    z-index: 10
+}
+
+.module .content .items .episodes .poster span.serie,article.simple2 .poster span.serie {
+    position: absolute;
+    width: 90%;
+    bottom: 22px;
+    left: 7px;
+    font-size: 85%;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fff;
+    text-shadow: 0 1px 5px #000;
+    display: block !important
+}
+
+.module .content .items .episodes .poster span.sezon,article.simple2 .poster span.sezon {
+    position: absolute;
+    bottom: 7px;
+    right: 10px;
+    text-transform: uppercase;
+    color: #adbac7;
+    font-size: 75%
+}
+
+article.simple2 .poster span.sezon b.bolum {
+    margin-left: 3px
+}
+
+.module .content .items .item .serie-time,article.simple2 .poster .serie-time {
+    position: absolute;
+    float: right;
+    bottom: 8px;
+    right: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 65%
+}
+
+.list,.list .row {
+    width: 100%;
+    text-align: center;
+    font-size: 14px
+}
+
+.loguser a,.no_fav {
+    float: left;
+    text-align: center
+}
+
+.no_fav {
+    width: 100%;
+    padding: 30px 0;
+    font-size: 14px
+}
+
+.extcom,.list {
+    float: left;
+    padding: 15px
+}
+
+.extcom {
+    width: 100%;
+    padding: 25px
+}
+
+.list .row {
+    padding: 5px 0;
+    float: left
+}
+
+.list .row span.field {
+    width: calc(100%/3);
+    float: left
+}
+
+.module .content .items .episodes .poster span.sezon b.bolum {
+    margin-left: 3px;
+    font-weight: 100;
+}
+
+span.s_trending a.m_trending {
+    float: left;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.contact {
+    position: relative;
+    padding-top: 25px
+}
+
+.contact .wrapper {
+    padding: 0 25px 15px
+}
+
+.contact .wrapper h1 {
+    font-size: 32px;
+}
+
+.contact .wrapper p.descrip {
+    line-height: 30px
+}
+
+.contact .wrapper fieldset {
+    width: 100%;
+    float: left;
+    padding: 10px 0
+}
+
+.contact .wrapper fieldset.nine {
+    width: 48%
+}
+
+.contact .wrapper fieldset.fix {
+    margin-left: 4%
+}
+
+.contact .wrapper fieldset label {
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.contact .wrapper fieldset p {
+    float: left;
+    width: 100%;
+    line-height: 22px;
+    margin-bottom: 10px;
+    font-size: 14px
+}
+
+.contact .wrapper fieldset input[type=text],.contact .wrapper fieldset textarea {
+    width: 100%;
+    padding: 12px;
+}
+
+.contact .wrapper fieldset input[type=submit] {
+    border: 0;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 300px
+}
+
+.contact,.contact .wrapper,.g-recaptcha,.single-page h1.head {
+    float: left;
+    width: 100%
+}
+
+.loguser,form.update_profile,form.update_profile fieldset {
+    width: 100%;
+    float: left;
+    padding: 0
+}
+
+form.update_profile {
+    padding: 30px
+}
+
+.loguser a {
+    padding: 23px 15px;
+    font-size: 13px;
+}
+
+form.update_profile h3 {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 13px 50px;
+    margin-bottom: 20px
+}
+
+form.update_profile fieldset {
+    margin-bottom: 25px
+}
+
+form.update_profile fieldset.min {
+    width: 49%
+}
+
+form.update_profile fieldset.fix {
+    margin-right: 2%
+}
+
+.single-page h1.head {
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom: 15px
+}
+
+form.update_profile fieldset label {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+form.update_profile fieldset input[type=password],form.update_profile fieldset input[type=text] {
+    width: 100%;
+    padding: 10px;
+    font-size: 17px
+}
+
+form.update_profile fieldset select {
+    width: 100%;
+    height: 42px;
+    padding: 10px
+}
+
+form.update_profile fieldset input[type=submit] {
+    border: 0;
+    padding: 10px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px
+}
+
+form.update_profile .error,form.update_profile .updated,form.update_profile .warning {
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+    padding: 15px
+}
+
+form.update_profile .updated p {
+    font-size: 17px
+}
+
+.account {
+    float: left;
+    margin: 0 0 50px
+}
+
+.account .sidebar,.sbackdrop h1 {
+    position: absolute;
+    left: 0;
+    overflow: hidden
+}
+
+.account .sidebar {
+    width: 220px;
+    height: 100%;
+    float: left;
+    top: 0;
+    padding: 20px
+}
+
+.account .sidebar ul li {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px
+}
+
+.account .sidebar ul li a {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    font-size: 14px
+}
+
+.account .content {
+    width: calc(100% - 220px);
+    margin-left: 219px;
+    min-height: 450px;
+    padding: 30px;
+    float: left
+}
+
+.account .content h3 {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 25px
+}
+
+.sseasons .se-c .se-q {
+    background: 0 0 !important
+}
+
+#page .comments-area,.sidebar aside.widget_text {
+    padding: 0
+}
+
+.account,.sbackdrop,.single-page {
+    width: 100%;
+    position: relative
+}
+
+.single-page {
+    padding: 25px;
+    margin: 25px 0;
+    float: left
+}
+
+.sbackdrop {
+    height: 200px;
+    background-position: 10% 15%;
+    background-size: cover;
+    padding: 15px
+}
+
+.sbackdrop h1 {
+    font-size: 24px;
+    padding: 15px 2%;
+    bottom: 0;
+    width: 96%;
+    z-index: 1
+}
+
+.single_menu ul.main_dt_menu {
+    width: 100%;
+    float: left
+}
+
+.page_user header.user .box .contenido .info span:last-child {
+    border-right: 0
+}
+
+.pag_episodes {
+    display: flex;
+    float: right;
+    margin-top: 16px;
+    margin-right: 5px
+}
+
+.pag_episodes .left a,.pag_episodes .right a {
+    width: 120px;
+    padding: 8px;
+    border-radius: 7px
+}
+
+.pag_episodes .left a {
+    text-align: left
+}
+
+.pag_episodes .right a {
+    text-align: right;
+    margin-left: 5px
+}
+
+.pag_episodes .left i {
+    font-size: 12px;
+    margin-right: 5px
+}
+
+.pag_episodes .right a i {
+    font-size: 12px;
+    margin-left: 5px
+}
+
+.pag_episodes .right a span,.pag_episodes .right a span {
+    font-size: 14px
+}
+
+.wp-content h1 span {
+    font-size: 15px;
+}
+
+.fix-table {
+    overflow-x: auto;
+    float: left;
+    width: 100%
+}
+
+.ggep {
+    padding: 10px
+}
+
+.single_menu {
+    display: none
+}
+
+.single_menu ul.main_dt_menu li {
+    float: left;
+    width: calc(100%/3)
+}
+
+.single_menu ul.main_dt_menu li a {
+    float: left;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase
+}
+
+.epiheader,.single_menu,.video_player_enable {
+    width: 100%;
+    float: left
+}
+
+.video_player_enable {
+    padding: 15px 15px 0
+}
+
+.video_player_enable .box {
+    width: 100%;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 40%;
+    position: relative
+}
+
+
+
+
+
+@media only screen and (max-width: 1130px) {
+    a.wide {
+        display:none
+    }
+
+    .fullplayer {
+        width: 100%
+    }
+
+    .fullsidebar {
+        padding-top: 10px !important
+    }
+
+    .player_sist .playex {
+        min-height: auto
+    }
+
+    .footer_alti_reklam,.lightSwitcher,.menu_alti_reklam {
+        display: none
+    }
+
+    .menu_alti_reklam_mobil {
+        display: block;
+        background: #000;
+        text-align: center
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    footer.main .fbox .copy {
+        padding:20px 0
+    }
+
+    .fixed-sidebar {
+        position: relative;
+        width: 100%
+    }
+
+    .footer_alti_reklam,.lightSwitcher,.menu_alti_reklam,.pagination,header.main .hbox .right {
+        display: none
+    }
+
+    .headitems,.live-search {
+        width: 320px
+    }
+
+    header.main {
+        width: 100%
+    }
+
+    header.main .hbox .register_active>.search {
+        width: 244px
+    }
+
+    .module .content .items .item .imdb {
+        top: 5px;
+        right: 5px;
+        width: 24px;
+        height: 24px;
+        line-height: 27px;
+        font-size: 9px
+    }
+
+    .module .content .items .item .imdb span {
+        font-size: 6px;
+        top: 3px
+    }
+
+    .module .content .items .item .serie-time,span.anadil,span.anayil,span.bolumdil,span.bolumkalite {
+        padding: 4px;
+        font-size: 5px
+    }
+
+    .module .content .items .episodes .poster span.serie {
+        bottom: 17px;
+        padding: 4px;
+        font-size: 7px
+    }
+
+    .module .content .items .episodes .poster span.sezon {
+        bottom: 5px;
+        padding: 3px 4px;
+        font-size: 5px
+    }
+
+    .menu_alti_reklam_mobil {
+        display: block;
+        background: #000;
+        text-align: center
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .module .content .items .episodes .poster div.serie-time,.module .content .items .item .poster .rating,.page_user header.user .box .contenido .name,.page_user header.user .box .contenido .name p,.page_user nav.user ul li.rrt {
+        display:none
+    }
+
+    .page_user nav.user ul li {
+        width: calc(100%/4)
+    }
+
+    #items_movies,#items_tvshows {
+        padding-bottom: 10px
+    }
+
+    .page_user .content .paged {
+        padding: 0 20px
+    }
+
+    #message .sms {
+        margin-bottom: 10px
+    }
+
+    .user_edit_control ul li a.selected:before {
+        border-width: 10px;
+        margin-left: -10px
+    }
+
+    .user_edit_control {
+        margin-bottom: 20px
+    }
+
+    .user_edit_control ul li a {
+        padding: 13px 0;
+        font-size: 13px
+    }
+
+    form.update_profile {
+        padding: 20px 30px
+    }
+
+    .page_user nav.user ul li a {
+        padding: 10px 15px;
+        width: 100%;
+        text-align: center;
+        font-size: 17px
+    }
+
+    form.update_profile fieldset {
+        padding: 0;
+        margin-bottom: 10px
+    }
+
+    .page_user {
+        width: 100%;
+        padding: 3px 0;
+        margin: 0
+    }
+
+    .page_user header.user .box {
+        height: 70px;
+        padding: 10px
+    }
+
+    .page_user header.user .box .contenido .name h2 {
+        font-size: 18px;
+        line-height: 25px
+    }
+
+    .page_user header.user .box .gravatar {
+        width: 50px
+    }
+
+    .page_user header.user .box .contenido {
+        padding-left: 60px
+    }
+
+    .page_user header.user .box .contenido .info {
+        width: 100%
+    }
+
+    .page_user header.user .box .contenido .info span {
+        margin: 4px 0
+    }
+
+    .module .content header {
+        padding: 10px 0
+    }
+
+    .full_width_layout {
+        padding: 10px !important
+    }
+
+    #single .episodes_cont .sbox {
+        padding: 20px
+    }
+
+    .module .content .items .item:hover>.pagination,.pageskin-top,footer.main .fbox .copy,footer.main .fbox .fmenu,header.main,span.top-page {
+        display: none
+    }
+
+    .resppages {
+        display: block
+    }
+
+    .module .content,.module .sidebar {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px
+    }
+
+    #contenedor {
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .module {
+        margin-bottom: 0;
+        margin-top: 0;
+        border-top: 0
+    }
+
+    .account,.contact {
+        margin: 0
+    }
+
+    .contact .wrapper {
+        padding: 20px
+    }
+
+    .module .sidebar {
+        position: relative
+    }
+
+    #single {
+        margin-bottom: 0
+    }
+
+    .search_responsive,header.responsive {
+        display: block
+    }
+
+    .formblock,.sidblock {
+        display: block !important;
+        -moz-transition: top .4s ease-in-out;
+        -o-transition: top .4s ease-in-out;
+        -webkit-transition: top .4s ease-in-out;
+        -ms-transition: top .4s ease-in-out;
+        transition: top .4s ease-in-out
+    }
+
+    #single .content {
+        width: 100%;
+        border-right: 0
+    }
+
+    #single .sidebar {
+        width: 100%;
+        border-left: 0;
+        margin-left: 0;
+        position: relative
+    }
+
+    .single-page {
+        margin-top: 0
+    }
+
+    .nav_items_module {
+        margin-left: 15px
+    }
+
+    .nav_items_module a.btn {
+        font-size: 25px;
+        border: solid 1px rgba(136,136,136,.3);
+        padding: 0 12px;
+        margin: 0 2px
+    }
+
+    .module .content header,.module .content header span {
+        line-height: 30px
+    }
+
+    .footer_alti_reklam,.lightSwitcher,.menu_alti_reklam,.mobildisi,.pageskin,.user_role-editor,.user_role-uye,.user_role-yonetici,.user_role-ziyaretci {
+        display: none
+    }
+
+    .menu_alti_reklam_mobil {
+        display: block;
+        background: #000;
+        text-align: center
+    }
+
+    .module .content .items .item .imdb {
+        top: 3px;
+        right: 3px;
+        width: 30px;
+        height: 30px;
+        line-height: 33px;
+        font-size: 13px
+    }
+
+    .module .content .items .item .imdb span {
+        font-size: 8px;
+        top: 3px
+    }
+
+    .module .content .items .item .serie-time,span.anadil,span.anayil,span.bolumdil,span.bolumkalite {
+        padding: 4px 5px;
+        font-size: 11px
+    }
+
+    .module .content .items .episodes .poster span.serie {
+        bottom: 25px;
+        padding: 4px;
+        font-size: 13px
+    }
+
+    .module .content .items .episodes .poster span.sezon {
+        bottom: 5px;
+        padding: 3px 4px;
+        font-size: 11px
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .sheader .poster {
+        width:70px
+    }
+
+    .sheader .poster img {
+        width: 70px;
+        height: 100px
+    }
+
+    .footer_alti_reklam,.lightSwitcher,.menu_alti_reklam,.mobildisi,.module .content .items .episodes .poster div.serie-time,.module .content .items .item .poster .rating,.pageskin,.user_role-editor,.user_role-uye,.user_role-yonetici,.user_role-ziyaretci {
+        display: none
+    }
+
+    .sheader .data {
+        width: calc(100% - 85px);
+        margin-left: 85px;
+        margin-top: 5px
+    }
+
+    .menu_alti_reklam_mobil {
+        display: block;
+        background: #000;
+        text-align: center
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .account .sidebar {
+        width:170px
+    }
+
+    .account .content {
+        width: calc(100% - 170px);
+        margin-left: 170px
+    }
+
+    .module .content .items .episodes .poster div.serie-time,.module .content .items .item .poster .rating {
+        display: none
+    }
+
+    article.simple {
+        width: calc(100%/3)
+    }
+
+    article.simple2 {
+        width: calc(100%/2)
+    }
+
+    article.simple .poster span.icon-remove,article.simple2 .poster span.icon-remove {
+        top: 4px
+    }
+
+    article.simple .poster .figure .data {
+        bottom: 20px
+    }
+
+    article.simple .poster .figure .data h3 {
+        font-size: 100%;
+        margin-bottom: 5px
+    }
+
+    article.simple .poster .figure span.anadil,article.simple .poster .figure span.anayil {
+        padding: 0;
+        font-size: 80%;
+    }
+
+    article.simple2 .poster span.serie {
+        bottom: 20px;
+        padding: 0;
+        font-size: 13px
+    }
+
+    article.simple2 .poster span.sezon,article.simple2 .poster span.sezon b.bolum {
+        bottom: 5px;
+        padding: 0;
+        font-size: 11px
+    }
+
+    .blog-list-items .entry {
+        width: 100%
+    }
+
+    .stplayer iframe {
+        width: 100%;
+        height: 209px
+    }
+
+    .footer_alti_reklam,.lightSwitcher,.menu_alti_reklam,.mobildisi,.pageskin,.user_role-editor,.user_role-uye,.user_role-yonetici,.user_role-ziyaretci {
+        display: none
+    }
+
+    .menu_alti_reklam_mobil {
+        display: block;
+        background: #000;
+        text-align: center
+    }
+
+    .current,.next,.page-numbers,.prev {
+        padding: 7px 8px;
+        font-size: 12px
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .user_control {
+        float:left;
+        width: 100%;
+        margin-left: 0
+    }
+
+    .user_control a {
+        width: 50%;
+        text-align: center
+    }
+
+    .user_control a:first-child {
+        border-left: 0
+    }
+
+    .user_control a span {
+        margin-left: 0;
+        padding: 0 20px
+    }
+
+    .owl-theme .owl-controls .owl-page span {
+        width: 10px
+    }
+
+    .module .content .items .item {
+        width: calc(100%/2);
+        padding: 5px
+    }
+
+    .grid-container .form-description,.module .content .items .episodes .poster div.serie-time,.module .content .items .item .poster .rating,.player_sist .control span.views,.se_rating,.starstruck-wrap,span.sl-wrapper {
+        display: none
+    }
+
+    .custom_fields span.valor {
+        width: 100%;
+        margin-top: 15px
+    }
+
+    .custom_fields,.custom_fields b.variante,.slider article.item,ul.smenu {
+        width: 100%
+    }
+
+    ul.smenu li {
+        width: 50%;
+        padding: 2px
+    }
+
+    ul.smenu li a {
+        text-shadow: none;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px 15px
+    }
+
+    ul.smenu li a.selected {
+        margin-bottom: 0
+    }
+
+    .no-result h2 {
+        font-size: 20px
+    }
+
+    .no-result,ul.smenu {
+        padding: 10px
+    }
+
+    .posts {
+        padding: 20px
+    }
+
+    .player_sist {
+        margin: 0
+    }
+
+    .person {
+        width: 100%
+    }
+
+    .stplayer iframe {
+        width: 100%;
+        height: 209px
+    }
+
+    .footer_alti_reklam,.lightSwitcher,.menu_alti_reklam,.mobildisi,.pageskin,.user_role-editor,.user_role-uye,.user_role-yonetici,.user_role-ziyaretci {
+        display: none
+    }
+
+    .menu_alti_reklam_mobil {
+        display: block;
+        background: #000;
+        text-align: center
+    }
+
+    .current,.next,.page-numbers,.prev {
+        padding: 7px 8px;
+        font-size: 12px
+    }
+
+    .rklam_player .rklam_box .rklam span.notice {
+        width: 65%
+    }
+
+    .rklam_player .rklam_box .rklam {
+        left: 25%;
+        top: 0
+    }
+
+    .rklam_player img {
+        width: 200px
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .login_box {
+        width:100%;
+        top: 50px;
+        left: 0;
+        margin-left: 0
+    }
+
+    .top-imdb-list,form.update_profile fieldset input[type=submit] {
+        width: 100%
+    }
+
+    .module .content .items .episodes .poster div.serie-time,.module .content .items .item .poster .rating {
+        display: none
+    }
+
+    .module .content .items .episodes {
+        width: 50%;
+        padding: 5px
+    }
+
+    .account .sidebar {
+        position: relative;
+        width: 100%
+    }
+
+    .account .content {
+        width: 100%;
+        margin-left: 0;
+        padding: 15px
+    }
+
+    .epiheader .epidata h3 {
+        font-size: 25px
+    }
+
+    .tleft {
+        padding-right: 0;
+        border-right: 0
+    }
+
+    .tright {
+        padding-left: 0
+    }
+
+    .result-item article {
+        padding-left: 110px
+    }
+
+    .result-item article .image {
+        width: 90px;
+        height: 90px
+    }
+
+    .stplayer iframe {
+        width: 100%;
+        height: 209px
+    }
+
+    .footer_alti_reklam,.lightSwitcher,.menu_alti_reklam,.mobildisi,.pageskin,.user_role-editor,.user_role-uye,.user_role-yonetici,.user_role-ziyaretci {
+        display: none
+    }
+
+    .menu_alti_reklam_mobil {
+        display: block;
+        background: #000;
+        text-align: center
+    }
+
+    .current,.next,.page-numbers,.prev {
+        padding: 7px 8px;
+        font-size: 12px
+    }
+
+    .rklam_player .rklam_box .rklam span.notice {
+        width: 65%
+    }
+
+    .rklam_player .rklam_box .rklam {
+        left: 25%;
+        top: 0
+    }
+
+    .rklam_player img {
+        width: 200px
+    }
+
+    .module .content .items .item .imdb {
+        top: 1px;
+        right: 1px;
+        width: 30px;
+        height: 30px;
+        line-height: 33px;
+        font-size: 13px
+    }
+
+    .module .content .items .item .imdb span {
+        font-size: 8px;
+        top: 3px
+    }
+
+    .top-imdb-list {
+        margin-left: -5px
+    }
+
+    .top-imdb-item .art {
+        width: 66%
+    }
+
+    .ana_sayfa_turler {
+        margin-left: 13px
+    }
+
+    .anabutton {
+        margin-top: 10px;
+        margin-bottom: 15px
+    }
+
+    .ana_yillar ul a {
+        width: 29.5%;
+        padding: 10px 7px
+    }
+
+    .module .content .items .item .poster .figure .data {
+        bottom: 20px
+    }
+
+    .sheader .data h1 {
+        line-height: 22px;
+        font-size: 100%
+    }
+
+    .extra span,.extra span.date {
+        font-size: 100%
+    }
+
+    .module .content .items .item .poster .figure .data h3 {
+        font-size: 100%;
+        margin-bottom: 5px
+    }
+
+    .module .content .items .item .poster .figure span.anadil,.module .content .items .item .poster .figure span.anayil {
+        padding: 0;
+        font-size: 80%;
+        margin-right: 3px
+    }
+
+    .tabs__tab {
+        font-size: 95%
+    }
+
+    .module .content .items .item .poster .figure span.sezon {
+        padding: 0;
+        font-size: 70%;
+    }
+
+    .module .content .items .episodes .poster span.serie {
+        bottom: 20px;
+        padding: 0;
+        font-size: 13px
+    }
+
+    .module .content .items .episodes .poster span.sezon {
+        bottom: 5px;
+        padding: 0;
+        font-size: 11px
+    }
+
+    .dtsingle .blmbilgi {
+        line-height: 33px;
+        padding: 0
+    }
+
+    .dtsingle .blmbilgi .dizibilgi {
+        width: 100%;
+        border-bottom: solid 1px;
+        border-color: rgba(255,255,255,.08)
+    }
+
+    .dtsingle .blmbilgi .diziextra {
+        float: left !important;
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 3px;
+        text-align: left
+    }
+
+    span.iconb span.blm-altyazisiz,span.iconb span.blm-fragman,span.iconb span.blm-ingilizce,span.iconb span.blm-turkce-altyazi,span.iconb span.blm-turkce-dublaj,span.iconb span.blm-yerli-dizi {
+        top: 7px;
+        background-size: 25px;
+        width: 25px;
+        height: 17px
+    }
+
+    span.iconb span.blm-turkce-altyazi-2 {
+        top: 5px;
+        background-size: 22px;
+        width: 22px;
+        height: 20px
+    }
+
+    .dtsingle .blmbilgi .dizibilgi span.badi {
+        max-width: 100%;
+        margin-left: 43px;
+        font-size: 18px
+    }
+
+    .dtsingle .blmbilgi .diziextra i {
+        font-size: 14px;
+        margin-right: 2px
+    }
+
+    .dtsingle .blmbilgi .diziextra span.tarih {
+        font-size: 12px;
+    }
+
+    .dtsingle .blmbilgi .diziextra span.yorum {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .dtsingle .blmbilgi .diziextra span.izledim {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .dtsingle .blmbilgi .diziextra span.izledim i {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .module .content .items .episodes {
+        width:50%;
+        padding: 5px
+    }
+
+    .stplayer iframe {
+        width: 100%;
+        height: 209px
+    }
+
+    .footer_alti_reklam,.lightSwitcher,.menu_alti_reklam,.mobildisi,.module .content .items .episodes .poster div.serie-time,.module .content .items .item .poster .rating,.posts .meta .views,.pageskin,.user_role-editor,.user_role-uye,.user_role-yonetici,.user_role-ziyaretci {
+        display: none
+    }
+
+    .menu_alti_reklam_mobil {
+        display: block;
+        background: #000;
+        text-align: center
+    }
+
+    .current,.next,.page-numbers,.prev {
+        padding: 7px 8px;
+        font-size: 12px
+    }
+
+    .rklam_player .rklam_box .rklam span.notice {
+        width: 65%
+    }
+
+    .rklam_player .rklam_box .rklam {
+        left: 25%;
+        top: 0
+    }
+
+    .rklam_player img {
+        width: 200px
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .module .content .items .episodes {
+        width:100%;
+        padding: 5px
+    }
+
+    .footer_alti_reklam,.lightSwitcher,.menu_alti_reklam,.mobildisi,.module .content .items .episodes .poster div.serie-time,.module .content .items .item .poster .rating,.pageskin,.user_role-editor,.user_role-uye,.user_role-yonetici,.user_role-ziyaretci {
+        display: none
+    }
+
+    .module .content .items .item {
+        width: calc(100%/2)
+    }
+
+    .stplayer iframe {
+        width: 100%;
+        height: 209px
+    }
+
+    .menu_alti_reklam_mobil {
+        display: block;
+        background: #000;
+        text-align: center
+    }
+
+    .current,.next,.page-numbers,.prev {
+        padding: 7px 8px;
+        font-size: 12px
+    }
+
+    .rklam_player .rklam_box .rklam span.notice {
+        width: 65%
+    }
+
+    .rklam_player .rklam_box .rklam {
+        left: 25%;
+        top: 0
+    }
+
+    .rklam_player img {
+        width: 200px
+    }
+}
