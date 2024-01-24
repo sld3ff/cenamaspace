@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../.vscode"
+		},
+		{
+			"path": "../assets"
+		},
+		{
+			"path": "../drama"
+		},
+		{
+			"path": "../hawal"
+		},
+		{
+			"path": "../movie"
+		},
+		{
+			"path": "../post"
+		},
+		{
+			"path": "../staff-info"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cenamaspace"
+	}
+}
