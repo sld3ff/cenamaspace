@@ -939,7 +939,7 @@ footer .bottom-details .bottom_text{
   }
   .bottom-details .bottom_text span,
   .bottom-details .bottom_text a{
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 @media (max-width: 520px){
