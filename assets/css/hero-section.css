@@ -441,7 +441,7 @@ a.movie-item:hover {
     left: 0;
     width: 100%;
     padding: 1px;
-    background-color: #18181b;
+    background-color: #0c0c0d;
 }
 
 .movie-item-content::before {
