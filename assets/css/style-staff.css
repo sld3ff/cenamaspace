@@ -455,7 +455,7 @@ body{
   color: #fff;
   border-radius: 50px;
   transition: all 0.3s ease;
-  background: #007bff47;
+  background: #272727;
 }
 .items span.active,
 .items span:hover{
